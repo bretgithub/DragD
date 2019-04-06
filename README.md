@@ -1,4 +1,4 @@
-# dragD a Drag Queen Matcher App
+# DragD a Drag Queen Matcher App
 
 ### Description
 
@@ -12,7 +12,7 @@ I used 6 questions instead of 10 as it was not necessary to the logic or purpose
 
 ### Demo
 
-DragD is up in Heroku, click the link [DragD]().
+DragD is up in Heroku, click the link [DragD](https://dashboard.heroku.com/apps/calm-inlet-44223).
 
 ### How to run locally
 
