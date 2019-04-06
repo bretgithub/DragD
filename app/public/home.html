@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag'd</title>
+
+    <!-- materialize css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"
+    />
+
+    <!-- google icon font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav>
+        <div class="nav-wrapper blue accent-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <!-- icon -->
+                <i
+                  class="fa fa-id-badge fa-4x"
+                  aria-hidden="true"
+                  id="logo-icon"
+                ></i>
+                <!-- link back to root -->
+                <a href="/" class="brand-logo" id="logo">&nbsp; Drag'd</a>
+              </div>
+              <!-- nav links -->
+              <ul class="right hide-on-med-and-down" id="head-nav-links">
+                <li>
+                  <a
+                    href="mailto:bret.allan@gmail.com?Subject=WOW!%20Hire%20me%20as%20a%20developer,%20mobile%20@415-465-3544"
+                    target="_top"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/bretgithub/drag_queen_finder"
+                    >Github</a
+                  >
+                  <li><a class="white-text" href="/survey">Survey</a></li>
+              <li>
+                <a class="white-text" href="/api/dragQueenList"
+                  >API Drag Queen List</a
+                >
+              </li>
+                </li>
+              </ul>
+              <!-- /nav links -->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- /nav -->
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="card div col s12 z-depth-5 mainpanel">
+            <!-- interactive card -->
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="" />
+            </div>
+            <div class="card-content">
+              <!-- intro to app -->
+              <span class="card-title activator grey-text text-darken-4"
+                >Drag'd<i class="material-icons right">more_vert</i></span
+              >
+              <hr />
+              <h5>
+                Welcome to Drag'd, the "world's" largest social netowrking app
+                for you to find your dream drag queen match.
+                <br />
+                <br />
+                Click the "Get Drag'd" button below to answer a few basic
+                questions which will then match you, through our matching
+                algorithm, to your drag queen for you to then connect to, and
+                explore your drag queen match.
+              </h5>
+              <br />
+              <p>
+                <!-- click to go to survey -->
+                <a href="/survey">
+                  <button
+                    class="btn waves-effect cyan accent-4"
+                    type="submit"
+                    name="action"
+                  >
+                    Get Drag'd<i class="material-icons right">send</i>
+                  </button></a
+                >
+              </p>
+              <br>
+              <hr>
+              <!-- disclaimer -->
+              <p>This is for practice and fun only. No data will be shared or
+              should be taken seriously.
+              </p>
+            </div>
+            <!-- part 2 of the card, the toggle -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Why Drag'd?<i class="material-icons right">close</i></span
+              >
+              <hr />
+
+              <h5>
+                Drag'd is the "world's" largest social networking app for you
+                guessed it, finding your drag queen. This is a "just for fun"
+                application so don't take any of the questions, layout, or your
+                match too seriously...
+                <br />
+                <br />
+                ...unless you have a burning desire to actually become a drag
+                queen and if so, head down to your local gay bar, tip your
+                bartenders and performers, and get your drag on.
+                <br>
+                <br>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- no footer, wanted to make this feel more like a mobile app -->
+
+    <!-- jQuery library -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+
+    <!-- font awesome icons -->
+    <script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
+
+    <!-- materialize js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  </body>
+</html>
