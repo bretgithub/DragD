@@ -8,6 +8,7 @@ let app = express();
 // allows access to req.body -- gives response, JSON like response
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
 // add app routes
 require("./app/routing/api_routes")(app);
@@ -17,3 +18,5 @@ require("./app/routing/html_routes")(app);
 app.listen(PORT, function() {
   console.log("APP is listening on PORT: " + PORT);
 });
+
+module.exports = app;
